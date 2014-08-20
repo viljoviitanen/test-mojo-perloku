@@ -1,0 +1,6 @@
+{
+  "name": "test-mojo-perloku",
+  "stack": "cedar-14",
+  "env": { "BUILDPACK_URL": "http://github.com/viljoviitanen/perloku.git" },
+  "success_url": "/"
+}

@@ -3,20 +3,7 @@ use Mojolicious::Lite;
 
 get '/' => sub {
   my $self = shift;
-  $self->render('index');
+  $self->render(text => 'XXXXXX');
 };
 
 app->start;
-__DATA__
-
-@@ index.html.ep
-% layout 'default';
-% title 'Welcome';
-Welcome to the Mojolicious real-time web framework!XXXXXX
-
-@@ layouts/default.html.ep
-<!DOCTYPE html>
-<html>
-  <head><title><%= title %></title></head>
-  <body><%= content %></body>
-</html>
