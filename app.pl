@@ -12,7 +12,7 @@ __DATA__
 @@ index.html.ep
 % layout 'default';
 % title 'Welcome';
-Welcome to the Mojolicious real-time web framework!
+Welcome to the Mojolicious real-time web framework!XXXXXX
 
 @@ layouts/default.html.ep
 <!DOCTYPE html>
